@@ -74,6 +74,8 @@
 
 
 <script>
+// @ts-nocheck
+
     export let isDone;
 </script>
 
