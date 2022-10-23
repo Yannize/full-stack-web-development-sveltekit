@@ -1,4 +1,5 @@
 <script>
+    import './home.css'
     // @ts-nocheck
     import TodoItem from "$lib/todo-item.svelte"
 
@@ -18,8 +19,8 @@
 </form>
 
 <ul>
-    <TodoItem />
-    <TodoItem />
-    <TodoItem />
+    <TodoItem isDone={false}/>
+    <TodoItem isDone={true}/>
+    <TodoItem isDone={false}/>
 </ul>
 
